@@ -123,3 +123,8 @@ This project highlights the following technical and analytical skills:
 
 •	Data represents a sample GA4 dataset, not live production data.
 
+### SQL Files
+- [Data Exploration](sql/data_exploration.sql)
+- [Ordered Funnel Logic](sql/ordered_funnel.sql)
+- [Device Segmentation](sql/device_segmentation.sql)
+- [Traffic Source Funnel](sql/traffic_source_funnel.sql)
