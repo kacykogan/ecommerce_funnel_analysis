@@ -1,16 +1,23 @@
-# ecommerce_funnel_analysis
+# Ecommerce Funnel Analysis Project
+
+**Interactive Tableau Dashboard:**  
+https://public.tableau.com/views/EcommerceFunnelProject_17688637575050/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 **Overview**
 
-This project analyzes an e-commerce conversion funnel using Google Analytics 4 (GA4) sample data to understand user behavior from product view through purchase. With the goal to uncover insights about funnel drop-offs, conversion rates, and segment performance by device type and traffic source. In general, there seems to be a relatively strong conversion rate across devices and traffic sources, the largest drop off occurring between View Item and Add to Cart. In order to increase sales and optimize conversion rates I would recommend the following: 
-•	In terms of increasing the conversion rate between View Item and Add to Cart
-o	Test pricing and discount codes for new visitors
-o	Highlight reviews and ratings to encourage adding items to cart (especially considering that the data supports the idea that referrals have the strongest conversion rate amongst attributable traffic sources)
-•	To increase sales, I would suggest working to increase traffic overall
-o	As the conversion rate is highest from referral traffic we could consider partnerships, influencer marking, or referral incentives to grow this area
+This project analyzes an e-commerce conversion funnel using Google Analytics 4 (GA4) sample data to understand how users progress from product view through purchase. The analysis focuses on funnel drop-offs, conversion rates, and differences in performance by device type and traffic source. Results are used to identify opportunities to optimize early funnel engagement and increase overall conversions.
+
 
 **Business Questions**
 
-The business is looking to increase sales from their website, in order to make sure they are making the correct changes they want to look at the overall progression through the e-commerce funnel. How do device types influence conversion rates? Which traffic sources drive the highest-intent users and conversions? Where are potential opportunities to optimize the funnel?
+• How do users progress through the e-commerce funnel from View Item to Purchase?
+
+• How do device types influence conversion rates?
+
+• Which traffic sources drive the highest-intent users?
+
+• Where are the largest opportunities to optimize the funnel?
+
 
 **Data**
 
@@ -26,6 +33,7 @@ o	event_name – GA4 events (view_item, add_to_cart, begin_checkout, purchase)
 o	event_timestamp – timestamp of each event
 o	device.category – desktop, mobile, tablet
 o	traffic_source.source and traffic_source.medium – first-touch attribution
+
 
 **Methodology**
 
@@ -49,13 +57,17 @@ o	Created an interactive Tableau dashboard showing:
 	Insights and annotations for unusual data (Unknown traffic source)
 o	Designed dashboard for clarity and business storytelling
 
-**Skills**
+
+**Skills Demonstrated:**
+
+This project highlights the following technical and analytical skills:
 
 •	SQL (BigQuery) – Data extraction, cleaning, CTE, joins, and user-level funnel construction
 
 •	Data cleaning and segmentation (device, traffic source)
 
 •	Tableau – Interactive dashboard creation and annotation
+
 
 **Key Insights and Recommendations**
 
@@ -70,7 +82,19 @@ o	Designed dashboard for clarity and business storytelling
 
 •	Funnel Drop-Off: The largest drop-off occurs between View Item → Add to Cart, highlighting an opportunity to optimize early funnel engagement.
 
-Based on the funnel analysis, I recommend optimizing the early steps of the funnel, tailoring experiences by device and traffic source, and monitoring high-conversion Unknown traffic for potential attribution gaps. These actions would likely increase overall conversion while providing actionable insights for marketing and UX teams.
+• In general, there seems to be a relatively strong conversion rate across devices and traffic sources, the largest drop off occurring between View Item and Add to Cart. In order to increase sales and optimize conversion rates I would recommend the following: 
+
+•	In terms of increasing the conversion rate between View Item and Add to Cart
+
+  o	Test pricing and discount codes for new visitors
+
+  o	Highlight reviews and ratings to encourage adding items to cart (especially considering that the data supports the idea that referrals have the strongest     conversion rate amongst attributable traffic sources)
+
+•	To increase sales, I would suggest working to increase traffic overall
+
+  o	As the conversion rate is highest from referral traffic we could consider partnerships, influencer marking, or referral incentives to grow this area
+
+
 
 **Notes**
 
